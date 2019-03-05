@@ -25,6 +25,7 @@ $(function () {
         progressHandler();
         // 调用处理灰太狼动画的方法
         startWolfAnimation();
+        $('.score').text(0);
     });
 
     // 定义一个专门处理进度条的方法
